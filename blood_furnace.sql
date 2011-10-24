@@ -11,10 +11,5 @@ INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_
 
 DELETE FROM gameobject_scripts WHERE
 id = 150441;
-
---
--- Inserting data into `gameobject_scripts`
---
-
 INSERT INTO `gameobject_scripts` (`id`, `delay`, `command`, `datalong`, `datalong2`, `dataint`, `x`, `y`, `z`, `o`) VALUES
 (150441, 3, 11, 22295, 0, 0, 0, 0, 0, 0);
